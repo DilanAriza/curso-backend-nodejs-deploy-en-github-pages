@@ -11,7 +11,6 @@ import RedirectExternal from '../components/utils/RedirectExternal';
 import '../assets/styles/App.scss';
 
 //App
-
 export default class App extends Component {
     render() {
         return (
