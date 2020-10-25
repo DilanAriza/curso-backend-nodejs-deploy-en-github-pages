@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './../assets/styles/components/Home.scss';
+import '../assets/styles/containers/Home.scss'
 import Card from './Card';
+import Header from './Header';
 
 const Home = ()=>(
+    <>
+    <Header></Header>
     <div className="home">
         <div className="slidebar">
             <ul>
@@ -25,6 +28,8 @@ const Home = ()=>(
             <Card />
         </div>
     </div>
+
+    </>
 )
 
 export default Home;

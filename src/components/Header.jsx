@@ -8,18 +8,20 @@ import '../assets/styles/components/Header.scss';
 export default function Header() {
     return (
         <div className="header">
-            <Link to="/" className="link__home">
-                <span>
-                    Home
-                </span>
-            </Link>
-            
-            <div className="header__menu">
-                <ul>
-                    <li><Link to="/">Task</Link></li>
-                    <li><Link to="/external/github-profile">GitHub Profile</Link></li>
-                    <li><Link to="/external/rest-api">REST API</Link></li>
-                    <li><Link to="/external/platzi-profile">Platzi Profile</Link></li>
+            <div className="header__full-frame container-98-center">
+                <div className="header__full-frame--home-link">
+                    <Link to="/">Tasks App</Link>
+                </div>
+                <ul className="header__full-frame--other-links">
+                    <li>
+                        <Link to="/">Dilan Ariza</Link>
+                    </li>
+                    <li>
+                        <Link to="/">GitHub</Link>
+                    </li>
+                    <Link to="/task" className="btn-task button link-li">
+                        <span className="">Task</span>
+                    </Link>
                 </ul>
             </div>
         </div>
