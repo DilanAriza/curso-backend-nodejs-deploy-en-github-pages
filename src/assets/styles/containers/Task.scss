@@ -27,9 +27,12 @@
                             align-items: center;
                             margin: 0;
                             font-weight: normal;
-                            font-size: 14px;
+                            font-size: 20px;
                             padding: 4px 0;
                             height: 56px;
+                        }
+                        p {
+                            font-size: 20px;
                         }
                         .task__content__container--task--actions {
                             button {
@@ -50,7 +53,7 @@
                                 justify-content: center;
                                 text-transform: none;
                                 font-weight: 600;
-                                font-size: 14px;
+                                font-size: 20px;
                                 padding: 4px 20px;
                                 height: 56px;
                                 border-radius: 0;
@@ -102,7 +105,7 @@
                                 justify-content: center;
                                 text-transform: none;
                                 font-weight: 600;
-                                font-size: 14px;
+                                font-size: 20px;
                                 padding: 4px 20px;
                                 height: 56px;
                                 border-radius: 0;
