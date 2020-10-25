@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 //Components
-import Header from '../components/Header'
+import Header from '../components/HeaderHome'
 
 //Styles
 import '../assets/styles/containers/Home.scss'

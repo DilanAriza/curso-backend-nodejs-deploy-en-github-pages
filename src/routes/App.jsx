@@ -8,6 +8,7 @@ import RedirectExternal from '../components/utils/RedirectExternal';
 //Styles
 import '../assets/styles/App.scss';
 import HomeContainer from '../containers/HomeContainer';
+import TaskContainer from '../containers/TaskContainer';
 
 //App
 export default class App extends Component {
@@ -17,6 +18,9 @@ export default class App extends Component {
                 <Switch>
                     
                     <Route exact path="/" component={HomeContainer} />
+                    
+                    <Route exact path="/task" component={TaskContainer} />
+                    
                     {/* external */}
                     <Route path="/dilan">
                         <RedirectExternal loc=""></RedirectExternal>
